@@ -5,6 +5,15 @@
 [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 [![Downloads](https://pepy.tech/badge/popv)](https://pepy.tech/project/popv)
 
+# PopV-extended
+
+This is a modified version of PopV, which is a popular vote of a variety of cell-type transfer tools to classify cell-types in a query dataset based on a test dataset. We added some new features to this package, including:
+
+[TODO]
+-   Add a new algorithm: scimilarity
+-   Add a new algorithm: scPoli
+
+
 # PopV
 
 PopV uses popular vote of a variety of cell-type transfer tools to classify cell-types in a query dataset based on a test dataset.
