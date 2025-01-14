@@ -3,7 +3,21 @@
 
 # !/usr/bin/env python
 
-import setuptools
+from setuptools import setup, find_packages
 
-if __name__ == "__main__":
-    setuptools.setup(name="popv")
+setup(
+    name="popv",
+    version="0.1.0",
+    packages=find_packages(include=['popv', 'popv.*']),  # 只包含popv包
+    python_requires='>=3.9',
+    install_requires=[
+        'scvi-tools>=1.0.0',
+        'scimilarity',
+        'scanpy',
+        'numpy',
+        'torch',
+        'scikit-learn',
+        'pandas',
+        # Other dependencies
+    ],
+)
