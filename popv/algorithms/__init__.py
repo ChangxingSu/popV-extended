@@ -7,6 +7,7 @@ from ._scanorama import SCANORAMA as knn_on_scanorama
 from ._scanvi import SCANVI_POPV as scanvi
 from ._scvi import SCVI_POPV as knn_on_scvi
 from ._svm import SVM as svm
+from ._scimilarity import SCIMILARITY_POPV as scimilarity
 
 __all__ = [
     "knn_on_scvi",
@@ -18,4 +19,5 @@ __all__ = [
     "onclass",
     "knn_on_scanorama",
     "celltypist",
+    "scimilarity",
 ]
